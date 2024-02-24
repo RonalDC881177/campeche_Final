@@ -4,17 +4,16 @@
 <head>
     <title>Campeche.com</title>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="apple-touch-icon" href="<?php echo BASE_URL .'Assets/img/apple-icon.png';?>">
-    <link rel="shortcut icon" type="image/x-icon" href="<?php echo BASE_URL; ?>Assets/img/favicon.ico">
+    <link rel="icon" type="imagen/png" href="<?php echo BASE_URL; ?>Assets/img/WhatsApp_Image_2023-07-10_at_10_09_36_PM-M5ekvj1sa-transformed-removebg-preview.png">
 
     <link rel="stylesheet" href="<?php echo BASE_URL .'Assets/css/bootstrap.min.css'; ?>">
     <link rel="stylesheet" href="<?php echo BASE_URL .'Assets/css/templatemo.css'; ?>">
     <link rel="stylesheet" href="<?php echo BASE_URL .'Assets/css/custom.css'; ?>">
 
     <!-- Load fonts style after rendering the layout styles -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+   
     <link rel="stylesheet" href="<?php echo BASE_URL .'Assets/css/fontawesome.min.css'; ?>">
 
 </head>
@@ -26,7 +25,7 @@
             <div class="w-100 d-flex justify-content-between">
                 <div>
                     <i class="fa fa-envelope mx-2"></i>
-                    <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:info@company.com">info@company.com</a>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:info@company.com">ronalcucariano</a>
                     <i class="fa fa-phone mx-2"></i>
                     <a class="navbar-sm-brand text-light text-decoration-none" href="tel:010-020-0340">010-020-0340</a>
                 </div>
