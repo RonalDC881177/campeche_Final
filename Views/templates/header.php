@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-    <title>Campeche.com</title>
+    <title> <?php echo TITLE .' - '. $data['title']; ?></title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,8 +13,11 @@
     <link rel="stylesheet" href="<?php echo BASE_URL .'Assets/css/custom.css'; ?>">
 
     <!-- Load fonts style after rendering the layout styles -->
-   
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
     <link rel="stylesheet" href="<?php echo BASE_URL .'Assets/css/fontawesome.min.css'; ?>">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
 
 </head>
 
