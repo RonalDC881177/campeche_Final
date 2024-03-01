@@ -16,9 +16,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
     <link rel="stylesheet" href="<?php echo BASE_URL .'Assets/css/fontawesome.min.css'; ?>">
 
-    <link rel="stylesheet" type="text/css" href="Assets/css/slick.min.css">
-    <link rel="stylesheet" type="text/css" href="Assets/css/slick-theme.css">
-
+    <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL .'Assets/css/slick.min.css'; ?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL .'Assets/css/slick-theme.css'; ?>">
+    
 </head>
 
 <body>
