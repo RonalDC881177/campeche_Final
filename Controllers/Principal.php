@@ -24,7 +24,10 @@ class Principal extends Controller
         $porPagina = 20;
         $desde =($pagina  - 1) * $porPagina;
         $data['title'] = 'Productos';
-        $data['productos'] = $this->model->getProductos( $desde, $porPagina);
+        $data['productos'] = $this->model->getProductos($desde, $porPagina);
+        $data['pagina'] = $pagina;
+        $total = $this->model->getTotalProductos();
+        $data['total'] = ceil($total['total'] / $porPagina);
         $this->views->getView('principal', "shop", $data);
     }
 //VISTA DETALLES
