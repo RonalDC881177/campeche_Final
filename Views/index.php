@@ -13,7 +13,7 @@
                 <div class="container">
                     <div class="row p-5">
                         <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src="<?php echo BASE_URL; ?>Assets/img/banner_img_01.jpg"; ?>">
+                            <img class="img-fluid" src="<?php echo BASE_URL; ?>Assets/img/banner_img_01.png"; ?>
                         </div>
                         <div class="col-lg-6 mb-0 d-flex align-items-center">
                             <div class="text-align-left align-self-center">
@@ -35,7 +35,7 @@
                 <div class="container">
                     <div class="row p-5">
                         <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src="<?php echo BASE_URL; ?>Assets/img/banner_img_02.jpg" alt="">
+                            <img class="img-fluid" src="<?php echo BASE_URL; ?>Assets/img/   banner_img_02.jpg";>
                         </div>
                         <div class="col-lg-6 mb-0 d-flex align-items-center">
                             <div class="text-align-left">
@@ -94,9 +94,9 @@
             <?php foreach ($data['categorias'] as $categoria){?>
             <div class="col-12 col-md-4 p-5 mt-3">
                 <!--<a href="#"><img src="?php echo $categoria['imagen'];?>"--> 
-                <a href="#"><img src="<?php echo BASE_URL; ?>Assets/img/vegetales.jpg" class="rounded-circle img-fluid border"></a>
+                <a href="<?php echo BASE_URL .'principal/categorias/'. $categoria['id'];?>"><img src="<?php echo $categoria['imagen'];?>" class="rounded-circle img-fluid border"></a>
                 <h5 class="text-center mt-3 mb-3"><?php echo $categoria['categoria'];?></h5>
-                <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
+                <p class="text-center"><a class="btn btn-success">Ir a comprar</a></p>
             </div>
             <?php } ?>
         </div>
