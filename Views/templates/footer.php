@@ -1,4 +1,4 @@
-  <!-- Start Footer -->
+  <!-- inicio del Footer -->
   <footer class="bg-dark" id="tempaltemo_footer">
         <div class="container">
             <div class="row">
@@ -99,4 +99,7 @@
     <script src="<?php echo BASE_URL; ?>Assets/js/bootstrap.bundle.min.js"></script>
     <script src="<?php echo BASE_URL; ?>Assets/js/templatemo.js"></script>
     <script src="<?php echo BASE_URL; ?>Assets/js/custom.js"></script>
+    <script src="<?php echo BASE_URL; ?>Assets/js/sweetalert2.all.min.js"></script>
+    <script src="<?php echo BASE_URL; ?>Assets/js/carrito.js"></script>
+    
     <!-- End Script -->

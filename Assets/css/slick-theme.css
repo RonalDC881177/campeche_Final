@@ -14,9 +14,9 @@
 
     src: url('../webfonts/slick.eot');
     src: url('../webfonts/slick.eot?#iefix') format('embedded-opentype'),
-         url('../webfonts/slick.woff') format('woff'),
-         url('../webfonts/slick.ttf') format('truetype'),
-         url('../webfonts/slick.svg#slick') format('svg');
+    url('../webfonts/slick.woff') format('woff'),
+    url('../webfonts/slick.ttf') format('truetype'),
+    url('../webfonts/slick.svg#slick') format('svg');
 }
 /* Arrows */
 .slick-prev,
