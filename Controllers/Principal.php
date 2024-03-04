@@ -34,10 +34,12 @@ class Principal extends Controller
     public function details($id_producto)
     {
         $data['producto'] = $this->model->getProducto($id_producto);
+        $id_categoria = $data['producto']['id_categoria'];
+        $data['relacionados'] = $this->model->getAleatorios( $id_categoria, $data['producto']['id'] );
         $data['title'] = $data['producto']['nombre'];
         $this->views->getView('principal', "details", $data);
     }
-    //VISTA CATEGORIAS
+//VISTA CATEGORIAS
     public function categorias($datos)
     {
         $id_categoria = 1;

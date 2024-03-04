@@ -29,10 +29,16 @@ class PrincipalModel extends Query{
         return $this->selectAll($sql);
     }
      //Obtener el total de productos de la categoria
-     public function getTotalProductosCat($id_categoria)
-     {
-         $sql = "SELECT COUNT(*) AS total FROM productos WHERE id_categoria= $id_categoria";
-         return $this->select($sql);
-     }
+    public function getTotalProductosCat($id_categoria)
+    {
+        $sql = "SELECT COUNT(*) AS total FROM productos WHERE id_categoria = $id_categoria";
+        return $this->select($sql);
+    }
+     //PRODUCTOS RELACIONADOPS ALEATORIOS
+    public function getAleatorios($id_categoria, $id_producto)
+    {
+        $sql = "SELECT * FROM productos WHERE id_categoria= $id_categoria AND id != $id_producto ORDER BY RAND() LIMIT 20 ";
+        return $this->selectAll($sql);
+    }
 }
 ?>
