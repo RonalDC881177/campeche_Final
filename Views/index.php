@@ -20,7 +20,7 @@
                                 <h1 class="h1 text-success"><b>Del campo a la puerta de tu casa</b></h1>
                                 <h3 class="h2">Tu mercado de frutas y verduras, a un clic de distancia.</h3>
                                 <p>
-                                ¡Llena tu despensa de frescura! Descubre nuestra amplia variedad de frutas y verduras. 
+                                ¡Llena tu despensa de frescura! Descubre nuestra amplia variedad de frutas y verduras sin tener que salir de casa ya que todo lo que solicites sera entregado directamente a tu puerta. 
                                 </p>
                             </div>
                         </div>
@@ -35,11 +35,10 @@
                         </div>
                         <div class="col-lg-6 mb-0 d-flex align-items-center">
                             <div class="text-align-left">
-                                <h1 class="h1">Proident occaecat</h1>
-                                <h3 class="h2">Aliquip ex ea commodo consequat</h3>
+                                <h1 class="h1">Súmate al Movimiento Verde</h1>
+                                <h3 class="h2">Frutas y Vegetales Frescos a Tu Alcance</h3>
                                 <p>
-                                    You are permitted to use this Zay CSS template for your commercial websites. 
-                                    You are <strong>not permitted</strong> to re-distribute the template ZIP file in any kind of template collection websites.
+                                "Cada bocado cuenta cuando se trata de tu salud. Descubre nuestra selección de frutas y vegetales frescos en nuestra página web y empieza a cuidar de ti mismo de la manera más deliciosa."
                                 </p>
                             </div>
                         </div>
@@ -54,11 +53,10 @@
                         </div>
                         <div class="col-lg-6 mb-0 d-flex align-items-center">
                             <div class="text-align-left">
-                                <h1 class="h1">Repr in voluptate</h1>
-                                <h3 class="h2">Ullamco laboris nisi ut </h3>
+                                <h1 class="h1">¿Buscas una manera conveniente de obtener tus productos frescos?</h1>
+                                <h3 class="h2">!Encuentra tu Frescura Diaria Aquí¡ </h3>
                                 <p>
-                                    We bring you 100% free CSS templates for your websites. 
-                                    If you wish to support TemplateMo, please make a small contribution via PayPal or tell your friends about our website. Thank you.
+                                Descubre una variedad de frutas y vegetales de alta calidad cultivados por nuestros grandes campesinos quienes con amor y dedicación hacen posible esta realidad. 
                                 </p>
                             </div>
                         </div>
@@ -89,7 +87,6 @@
         <div class="row">
             <?php foreach ($data['categorias'] as $categoria){?>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <!--<a href="#"><img src="?php echo $categoria['imagen'];?>"--> 
                 <a href="<?php echo BASE_URL .'principal/categorias/'. $categoria['id'];?>"><img src="<?php echo $categoria['imagen'];?>" class="rounded-circle img-fluid border"></a>
                 <h5 class="text-center mt-3 mb-3"><?php echo $categoria['categoria'];?></h5>
                 <p class="text-center"><a class="btn btn-success">Ir a comprar</a></p>

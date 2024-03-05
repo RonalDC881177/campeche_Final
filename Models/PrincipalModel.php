@@ -25,7 +25,7 @@ class PrincipalModel extends Query{
     //PRODUCTOS DE LAS CATEGORIAS
     public function getProdCategoria( $id_categoria, $desde, $porPagina )
     {
-        $sql = "SELECT * FROM productos WHERE id_categoria= $id_categoria LIMIT $desde, $porPagina ";
+        $sql = "SELECT * , imagen FROM productos WHERE id_categoria= $id_categoria LIMIT $desde, $porPagina";
         return $this->selectAll($sql);
     }
      //Obtener el total de productos de la categoria

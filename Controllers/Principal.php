@@ -67,6 +67,7 @@ class Principal extends Controller
         $data['title'] = 'Categorias';
         $data['id_categoria'] = $id_categoria;
         $this->views->getView('principal', "categorias", $data);
+        
     }
 //VISTA CONTACTOS
     public function contactos()

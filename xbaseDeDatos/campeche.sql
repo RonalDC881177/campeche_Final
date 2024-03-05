@@ -1,23 +1,4 @@
--- phpMyAdmin SQL Dump
--- version 5.2.0
--- https://www.phpmyadmin.net/
---
--- Servidor: 127.0.0.1
--- Tiempo de generación: 05-03-2024 a las 22:27:39
--- Versión del servidor: 10.4.27-MariaDB
--- Versión de PHP: 8.0.25
 
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-START TRANSACTION;
-SET time_zone = "+00:00";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
---
 -- Base de datos: `campeche`
 --
 
@@ -28,19 +9,19 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `categorias` (
-  `id` int(11) NOT NULL,
-  `categoria` varchar(100) NOT NULL,
-  `imagen` varchar(150) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+  id int(11) NOT NULL,
+  categoria varchar(100) NOT NULL,
+  imagen varchar(150) NOT NULL
+) ENGINE=InnoDB
 
 --
--- Volcado de datos para la tabla `categorias`
+-- Carga de datos para la tabla `categorias`
 --
 
-INSERT INTO `categorias` (`id`, `categoria`, `imagen`) VALUES
-(1, 'Vegetales', 'https://images.app.goo.gl/54RMy6VweQRiEk7q8/'),
-(2, 'Frutas', 'https://robohash.org/adipiscivoluptatesminus.png?size=300x300&set=set1'),
-(3, 'Legumbres', 'https://robohash.org/blanditiisdistinctiooccaecati.png?size=300x300&set=set1');
+INSERT INTO categorias (id, categoria, imagen) VALUES
+(1, "Vegetales", "Assets/img/imgCategorias/vegetales.jpg"),
+(2, "Frutas", "Assets/img/imgCategorias/frutas.jpg"),
+(3, "Legumbres", "https://robohash.org/blanditiisdistinctiooccaecati.png?size=300x300&set=set1");
 
 -- --------------------------------------------------------
 
@@ -300,6 +281,3 @@ ALTER TABLE `productos`
   ADD CONSTRAINT `productos_ibfk_1` FOREIGN KEY (`id_categoria`) REFERENCES `categorias` (`id`);
 COMMIT;
 
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

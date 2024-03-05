@@ -1,6 +1,5 @@
 <?php
 class HomeModel extends Query{
- 
     public function __construct()
     {
         parent::__construct();
@@ -15,7 +14,6 @@ class HomeModel extends Query{
         $sql = "SELECT * FROM productos ORDER BY id DESC LIMIT 12";
         return $this->selectAll($sql);
     }
-
 }
- 
+
 ?>
