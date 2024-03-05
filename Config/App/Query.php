@@ -1,9 +1,9 @@
 <?php
 class Query extends Conexion{
-    private $pdo, $con, $sql, $datos;
+    private $PDO, $con, $sql, $datos;
     public function __construct() {
-        $this->pdo = new Conexion();
-        $this->con = $this->pdo->conect();
+        $this->PDO = new Conexion();
+        $this->con = $this->PDO->conect();
     }
     public function select(string $sql)
     {

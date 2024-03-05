@@ -53,7 +53,7 @@ body, ul, li, p, a, label, input, div {
 .text-success { color: #dcdde1 !important;}
 .text-light { color: #cfd6e1 !important;}
 .bg-dark { background-color: #212934 !important;}
-.bg-light { background-color: #e9eef5 !important;}
+.bg-light { background-color: #9ce789 !important;}
 .bg-black { background-color: #1d242d !important;}
 .bg-success { background-color: #59ab6e !important;}
 .btn-success {
@@ -104,9 +104,10 @@ body, ul, li, p, a, label, input, div {
 }
 /* Brand */
 .brand-img {
-  filter: grayscale(100%);
+  filter: grayscale(150%);
   opacity: 0.5;
   transition: .5s;
+
 }
 .brand-img:hover {
   filter: grayscale(0%);
@@ -115,11 +116,11 @@ body, ul, li, p, a, label, input, div {
 /* Carousel Hero */
 #template-mo-zay-hero-carousel .carousel-indicators li {
   margin-top: -50px;
-  background-color: #59ab6e;
+  /*background-color: #59ab6e;*/
 }
 #template-mo-zay-hero-carousel .carousel-control-next i,
 #template-mo-zay-hero-carousel .carousel-control-prev i {
-  color: #59ab6e !important;
+  color: #233428 !important;
   font-size: 2.8em !important;
 }
 /* Carousel Brand */

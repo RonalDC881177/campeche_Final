@@ -70,10 +70,9 @@
         <div class="container my-4">
             <div class="row text-center py-3">
                 <div class="col-lg-6 m-auto">
-                    <h1 class="h1">Our Brands</h1>
+                    <h1 class="h1">Nuestros Proveedores</h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        Lorem ipsum dolor sit amet.
+                        "Gracias a la labor de estas Fincas podras descubrir la frescura y variedad de nuestros productos, cultivados con amor y cuidado."
                     </p>
                 </div>
                 <div class="col-lg-9 m-auto tempaltemo-carousel">
@@ -92,20 +91,19 @@
                                 <!--Slides-->
                                 <div class="carousel-inner product-links-wap" role="listbox">
 
-                                    <!--First slide-->
-                                    <div class="carousel-item active">
+                                <div class="carousel-item active">
                                         <div class="row">
                                             <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/brand_01.png" alt="Brand Logo"></a>
+                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/LaFinca.png" alt="Brand Logo"></a>
                                             </div>
                                             <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/brand_02.png" alt="Brand Logo"></a>
+                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/finca01.jpg" alt="Brand Logo"></a>
                                             </div>
                                             <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/brand_03.png" alt="Brand Logo"></a>
+                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/finca04.jpg" alt="Brand Logo"></a>
                                             </div>
                                             <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/brand_04.png" alt="Brand Logo"></a>
+                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/Finca-02.jpg" alt="Brand Logo"></a>
                                             </div>
                                         </div>
                                     </div>
@@ -115,16 +113,16 @@
                                     <div class="carousel-item">
                                         <div class="row">
                                             <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/brand_01.png" alt="Brand Logo"></a>
+                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/LaFinca.png" alt="Brand Logo"></a>
                                             </div>
                                             <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/brand_02.png" alt="Brand Logo"></a>
+                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/finca01.jpg" alt="Brand Logo"></a>
                                             </div>
                                             <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/brand_03.png" alt="Brand Logo"></a>
+                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/finca04.jpg" alt="Brand Logo"></a>
                                             </div>
                                             <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/brand_04.png" alt="Brand Logo"></a>
+                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/Finca-02.jpg" alt="Brand Logo"></a>
                                             </div>
                                         </div>
                                     </div>
@@ -134,16 +132,16 @@
                                     <div class="carousel-item">
                                         <div class="row">
                                             <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/brand_01.png" alt="Brand Logo"></a>
+                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/LaFinca.png" alt="Brand Logo"></a>
                                             </div>
                                             <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/brand_02.png" alt="Brand Logo"></a>
+                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/finca01.jpg" alt="Brand Logo"></a>
                                             </div>
                                             <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/brand_03.png" alt="Brand Logo"></a>
+                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/finca04.jpg" alt="Brand Logo"></a>
                                             </div>
                                             <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/brand_04.png" alt="Brand Logo"></a>
+                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/Finca-02.jpg" alt="Brand Logo"></a>
                                             </div>
                                         </div>
                                     </div>

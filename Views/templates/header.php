@@ -120,3 +120,5 @@
             </form>
         </div>
     </div>
+    <script src="<?php echo BASE_URL; ?>Assets/js/carrito.js"></script>
+    

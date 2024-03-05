@@ -68,12 +68,35 @@ class Principal extends Controller
         $data['id_categoria'] = $id_categoria;
         $this->views->getView('principal', "categorias", $data);
     }
-
-//VISTA CONTACTO
+//VISTA CONTACTOS
+    public function contactos()
+    {
+        $data['title'] = 'Contactos';
+        $this->views->getView('principal', "contact", $data);
+    }
+//VISTA LISTA DE DESEOS
     public function deseo()
     {
         $data['title'] = 'Lista de deseos';
         $this->views->getView('principal', "deseo", $data);
+    }
+//OBTENER PRODUCTOS DE LA LIUSTA DE DESEOS
+    public function listaDeseo() 
+    {
+        $datos = file_get_contents('php://input');
+        $json = json_decode($datos, true);
+        $array = array();
+        foreach ($json as $producto) {
+            $result= $this->model->getListaDeseo($producto['idProducto']);
+            $data['id'] = $result['id'];
+            $data['nombre'] = $result['nombre'];
+            $data['precio'] = $result['precio'];
+            $data['cantidad'] = $producto['cantidad'];
+            $data['imagen'] = $result['imagen'];
+            array_push($array, $data);
+        }
+        json_encode($array);
+        die();
     }
 
 }

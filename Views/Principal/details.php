@@ -22,71 +22,61 @@
                             <!--Start Slides-->
                             <div class="carousel-inner product-links-wap" role="listbox">
 
-                                <!--First slide-->
-                                <div class="carousel-item active">
-                                    <div class="row">
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="<?php echo BASE_URL; ?>Assets/img/product_single_01.jpg" alt="Product Image 1">
-                                            </a>
-                                        </div>
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="<?php echo BASE_URL; ?>Assets/img/product_single_02.jpg" alt="Product Image 2">
-                                            </a>
-                                        </div>
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="<?php echo BASE_URL; ?>Assets/img/product_single_03.jpg" alt="Product Image 3">
-                                            </a>
+                            <div class="carousel-item active">
+                                        <div class="row">
+                                            <div class="col-3 p-md-5">
+                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/LaFinca.png" alt="Brand Logo"></a>
+                                            </div>
+                                            <div class="col-3 p-md-5">
+                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/finca01.jpg" alt="Brand Logo"></a>
+                                            </div>
+                                            <div class="col-3 p-md-5">
+                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/finca04.jpg" alt="Brand Logo"></a>
+                                            </div>
+                                            <div class="col-3 p-md-5">
+                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/Finca-02.jpg" alt="Brand Logo"></a>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <!--/.First slide-->
+                                    <!--End First slide-->
 
-                                <!--Second slide-->
-                                <div class="carousel-item">
-                                    <div class="row">
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="<?php echo BASE_URL; ?>Assets/img/product_single_04.jpg" alt="Product Image 4">
-                                            </a>
-                                        </div>
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="<?php echo BASE_URL; ?>Assets/img/product_single_05.jpg" alt="Product Image 5">
-                                            </a>
-                                        </div>
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="<?php echo BASE_URL; ?>Assets/img/product_single_06.jpg" alt="Product Image 6">
-                                            </a>
+                                    <!--Second slide-->
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-3 p-md-5">
+                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/LaFinca.png" alt="Brand Logo"></a>
+                                            </div>
+                                            <div class="col-3 p-md-5">
+                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/finca01.jpg" alt="Brand Logo"></a>
+                                            </div>
+                                            <div class="col-3 p-md-5">
+                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/finca04.jpg" alt="Brand Logo"></a>
+                                            </div>
+                                            <div class="col-3 p-md-5">
+                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/Finca-02.jpg" alt="Brand Logo"></a>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <!--/.Second slide-->
+                                    <!--End Second slide-->
 
-                                <!--Third slide-->
-                                <div class="carousel-item">
-                                    <div class="row">
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="<?php echo BASE_URL; ?>Assets/img/product_single_07.jpg" alt="Product Image 7">
-                                            </a>
-                                        </div>
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="<?php echo BASE_URL; ?>Assets/img/product_single_08.jpg" alt="Product Image 8">
-                                            </a>
-                                        </div>
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="<?php echo BASE_URL; ?>Assets/img/product_single_09.jpg" alt="Product Image 9">
-                                            </a>
+                                    <!--Third slide-->
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-3 p-md-5">
+                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/LaFinca.png" alt="Brand Logo"></a>
+                                            </div>
+                                            <div class="col-3 p-md-5">
+                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/finca01.jpg" alt="Brand Logo"></a>
+                                            </div>
+                                            <div class="col-3 p-md-5">
+                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/finca04.jpg" alt="Brand Logo"></a>
+                                            </div>
+                                            <div class="col-3 p-md-5">
+                                                <a href="#"><img class="img-fluid brand-img" src="<?php echo BASE_URL; ?>Assets/img/Finca-02.jpg" alt="Brand Logo"></a>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <!--/.Third slide-->
+                                    <!--End Third slide-->
                             </div>
                             <!--End Slides-->
                         </div>
