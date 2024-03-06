@@ -4,15 +4,15 @@
 
 -- --------------------------------------------------------
 
---
--- Estructura de tabla para la tabla `categorias`
---
+CREATE DATABASE campeche_final DEFAULT CHARACTER SET utf8 ;
+USE db_appwebphp;
 
+/
 CREATE TABLE `categorias` (
   id int(11) NOT NULL,
   categoria varchar(100) NOT NULL,
   imagen varchar(150) NOT NULL
-) ENGINE=InnoDB
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Carga de datos para la tabla `categorias`
