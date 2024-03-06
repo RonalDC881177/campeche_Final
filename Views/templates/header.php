@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="<?php echo BASE_URL .'Assets/css/bootstrap.min.css'; ?>">
     <link rel="stylesheet" href="<?php echo BASE_URL .'Assets/css/templatemo.css'; ?>">
     <link rel="stylesheet" href="<?php echo BASE_URL .'Assets/css/custom.css'; ?>">
+    <link rel="stylesheet" href="">
 
     <!-- Load fonts style after rendering the layout styles -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
