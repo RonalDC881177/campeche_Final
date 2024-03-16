@@ -13,7 +13,7 @@
                         <div class="col-1 align-self-center">
                             <a href="#multi-item-example" role="button" data-bs-slide="prev">
                                 <i class="text-dark fas fa-chevron-left"></i>
-                                <span class="sr-only">Previous</span>
+                                <span class="sr-only">ronaaaaaaaaaal</span>
                             </a>
                         </div>
                         <!--End Controls-->

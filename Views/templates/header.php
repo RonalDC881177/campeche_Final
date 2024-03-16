@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-    <title> <?php echo TITLE .' - '. $data['title']; ?></title>
+    <title> <?php echo TITLE .' pendejo '. $data['title']; ?></title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -61,13 +61,13 @@
                 <div class="flex-fill">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="<?php echo BASE_URL . 'Principal/details'?>">Inicio</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="<?php echo BASE_URL . 'Principal/about'?>">Servicios</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="<?php echo BASE_URL . 'Principal/shop'?>">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="<?php echo BASE_URL . 'Principal/categorias'?>">Categorias</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="<?php echo BASE_URL . 'Principal/contact'?>">Contacto</a>

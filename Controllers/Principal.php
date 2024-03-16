@@ -87,16 +87,16 @@ class Principal extends Controller
         $datos = file_get_contents('php://input');
         $json = json_decode($datos, true);
         $array = array();
-        foreach ($json as $producto) {
+        foreach ($json as $producto){
             $result= $this->model->getListaDeseo($producto['idProducto']);
             $data['id'] = $result['id'];
             $data['nombre'] = $result['nombre'];
             $data['precio'] = $result['precio'];
             $data['cantidad'] = $producto['cantidad'];
             $data['imagen'] = $result['imagen'];
-            array_push($array, JSON_UNESCAPED_UNICODE);
+            array_push($array, $producto);
         }
-        json_encode($array);
+        echo json_encode($array,JSON_UNESCAPED_UNICODE);
         die();
     }
 
