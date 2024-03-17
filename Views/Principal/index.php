@@ -1,3 +1,4 @@
+<!--
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,20 +14,20 @@
     <link rel="stylesheet" href="assets/css/templatemo.css">
     <link rel="stylesheet" href="assets/css/custom.css">
 
-    <!-- Load fonts style after rendering the layout styles -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    !-- Load fonts style after rendering the layout styles --
+    link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-<!--
+!--
     
 TemplateMo 559 Zay Shop
 
 https://templatemo.com/tm-559-zay-shop
 
--->
-</head>
+--
+/head
 
 <body>
-    <!-- Start Top Nav -->
+    !-- Start Top Nav --
     <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
         <div class="container text-light">
             <div class="w-100 d-flex justify-content-between">
@@ -45,10 +46,10 @@ https://templatemo.com/tm-559-zay-shop
             </div>
         </div>
     </nav>
-    <!-- Close Top Nav -->
+    !-- Close Top Nav --
 
 
-    <!-- Header -->
+    !-- Header --
     <nav class="navbar navbar-expand-lg navbar-light shadow">
         <div class="container d-flex justify-content-between align-items-center">
 
@@ -102,9 +103,9 @@ https://templatemo.com/tm-559-zay-shop
 
         </div>
     </nav>
-    <!-- Close Header -->
+    !-- Close Header --
 
-    <!-- Modal -->
+    !-- Modal --
     <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
             <div class="w-100 pt-1 mb-5 text-right">
@@ -123,7 +124,7 @@ https://templatemo.com/tm-559-zay-shop
 
 
 
-    <!-- Start Banner Hero -->
+    !-- Start Banner Hero --
     <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">
         <ol class="carousel-indicators">
             <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" class="active"></li>
@@ -199,10 +200,10 @@ https://templatemo.com/tm-559-zay-shop
             <i class="fas fa-chevron-right"></i>
         </a>
     </div>
-    <!-- End Banner Hero -->
+    !-- End Banner Hero --
 
 
-    <!-- Start Categories of The Month -->
+    !-- Start Categories of The Month --
     <section class="container py-5">
         <div class="row text-center pt-3">
             <div class="col-lg-6 m-auto">
@@ -231,10 +232,10 @@ https://templatemo.com/tm-559-zay-shop
             </div>
         </div>
     </section>
-    <!-- End Categories of The Month -->
+    !-- End Categories of The Month --
 
 
-    <!-- Start Featured Product -->
+    !-- Start Featured Product --
     <section class="bg-light">
         <div class="container py-5">
             <div class="row text-center py-3">
@@ -322,10 +323,10 @@ https://templatemo.com/tm-559-zay-shop
             </div>
         </div>
     </section>
-    <!-- End Featured Product -->
+    !-- End Featured Product --
 
 
-    <!-- Start Footer -->
+    !-- Start Footer --
     <footer class="bg-dark" id="tempaltemo_footer">
         <div class="container">
             <div class="row">
@@ -418,15 +419,15 @@ https://templatemo.com/tm-559-zay-shop
         </div>
 
     </footer>
-    <!-- End Footer -->
+    !-- End Footer --
 
-    <!-- Start Script -->
+    !-- Start Script --
     <script src="assets/js/jquery-1.11.0.min.js"></script>
     <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/templatemo.js"></script>
     <script src="assets/js/custom.js"></script>
-    <!-- End Script -->
+    !-- End Script --
 </body>
 
 </html>
