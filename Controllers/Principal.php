@@ -9,7 +9,7 @@ class Principal extends Controller
 //VISTA HOME
     public function index()
     {
-       
+    
     }
 //VISTA ABOUT
     public function about()
